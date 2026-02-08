@@ -16,10 +16,14 @@ body {
     max-width: 1000px;
 }
 
+.header-outer, .hero-outer {
+    background-color: #1F2937;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
 }
 
 .nav {
