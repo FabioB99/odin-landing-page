@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+.header, .hero, .info, .quote, .cta-banner, .footer {
+    max-width: 1000px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -130,4 +134,6 @@ cite {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    color: #efe7eb;
 }
