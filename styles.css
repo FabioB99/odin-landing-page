@@ -16,7 +16,7 @@ body {
     max-width: 1000px;
 }
 
-.header-outer, .hero-outer {
+.header-outer, .hero-outer, .footer-outer {
     background-color: #1F2937;
 }
 
