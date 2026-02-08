@@ -14,6 +14,8 @@ body {
 
 .header, .hero, .info, .quote, .cta-banner, .footer {
     max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header-outer, .hero-outer, .footer-outer {
