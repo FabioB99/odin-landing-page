@@ -61,6 +61,10 @@ h1 {
     color: #efe7eb
 }
 
+.hero-cta {
+    background-color: #3882F6;
+    color: white
+}
 
 
 .info {
@@ -68,6 +72,12 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .info-container {
@@ -98,7 +108,12 @@ h1 {
 blockquote {
     margin: 0;
     font-style: italic;
-    
+}
+
+.quote-container {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
 }
 
 cite {
