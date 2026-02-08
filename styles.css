@@ -34,6 +34,34 @@ body {
     gap: 16px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-img {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
 .footer {
     display: flex;
     justify-content: center;
