@@ -5,6 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* General Layout of the page */
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,8 +18,11 @@ body {
 .header, .hero, .info, .quote, .cta-banner, .footer {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 24px;
 }
+
+
+/* Background */
 
 .header-outer, .hero-outer, .footer-outer {
     background-color: #1F2937;
@@ -31,10 +37,14 @@ body {
 }
 
 
+/* Header styling */
+
 .header {
     display: flex;
     justify-content: space-between;
+    padding-top: 16px;
 }
+
 
 .nav {
     display: flex;
@@ -60,36 +70,74 @@ body {
     flex: 1;
 }
 
+
+/* Hero styling */
+
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
+    gap: 60px;
     background-color: #1F2937;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.left-hero-side {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf9;
+    padding: 0;
+    margin: 0;
 }
 
 .subheader {
     font-size: 18px;
-    color: #efe7eb
+    color: #efe7eb;
+    padding: 0;
+    margin: 0;
 }
 
 .hero-cta {
+    max-width: 100px; 
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+    border: none;
     background-color: #3882F6;
-    color: white
+    color: white;
+    flex: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.right-hero-side {
+    min-width: 400px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align:middle;
+    background-color: #BABABA;
+}
+
+
+/* Info section styling */
 
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .info-header {
@@ -119,6 +167,14 @@ h1 {
     background-color: black;
 }
 
+
+/* Quote Section styling */
+
+.quote {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
 blockquote {
     margin: 0;
     font-style: italic;
@@ -134,10 +190,14 @@ cite {
     font-style: normal;
 }
 
+/* CTA Banner Styling */
+
 .cta-banner {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer {
@@ -146,4 +206,5 @@ cite {
     align-items: center;
     background-color: #1F2937;
     color: #efe7eb;
+    padding: 32px 0 32px 0;
 }
