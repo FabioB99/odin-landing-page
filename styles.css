@@ -16,7 +16,7 @@ body {
 }
 
 .header, .hero, .info, .quote, .cta-banner, .footer {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
 }
@@ -42,7 +42,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px;
+    padding-top: 24px;
 }
 
 
@@ -79,15 +79,15 @@ body {
     align-items: center;
     gap: 80px;
     background-color: #1F2937;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .left-hero-side {
-    max-width: 480px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
 }
 
 h1 {
@@ -121,8 +121,8 @@ h1 {
 }
 
 .right-hero-side {
-    min-width: 400px;
-    min-height: 200px;
+    min-width: 600px;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,20 +139,22 @@ h1 {
     justify-content: center;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
+    gap: 40px;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 0;
 }
 
 .info-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 48px;
 }
 
 .info-card {
@@ -161,21 +163,21 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 8px;
+    gap: 12px;
 }
 
 .info-img {
-    min-width: 144px;
-    min-height:144px;
+    min-width: 200px;
+    min-height: 200px;
     background-color: white;
-    outline: 2px solid #3882F6;
-    border-radius: 8px;
+    outline: 3px solid #3882F6;
+    border-radius: 12px;
 }
 
 .info-txt {
-    max-width: 144px;
-    max-height: 144px;
-    font-size: 13px;
+    max-width: 200px;
+    max-height: 200px;
+    font-size: 18px;
     color: #696969;
     padding: 0;
     margin: 0;
@@ -185,8 +187,8 @@ h1 {
 /* Quote Section styling */
 
 .quote {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,12 +196,15 @@ h1 {
 }
 
 blockquote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
     margin: 0;
     font-style: italic;
-    max-width: 800px;
+    max-width: 880px;
 }
 
 .quote-container {
@@ -209,10 +214,14 @@ blockquote {
 }
 
 cite {
+    padding-right: 40px;
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    color: #1F2937;
     font-style: normal;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 /* CTA Banner Styling */
