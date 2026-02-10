@@ -77,22 +77,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     background-color: #1F2937;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .left-hero-side {
-    max-width: 500px;
+    max-width: 480px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
+    line-height: 1.2;
     color: #f9faf9;
     padding: 0;
     margin: 0;
@@ -100,6 +101,7 @@ h1 {
 
 .subheader {
     font-size: 18px;
+    line-height: 1.2;
     color: #efe7eb;
     padding: 0;
     margin: 0;
@@ -137,7 +139,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .info-header {
@@ -150,7 +152,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 40px;
 }
 
 .info-card {
@@ -159,12 +161,24 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 8px;
 }
 
 .info-img {
-    width: 50px;
-    height: 50px;
-    background-color: black;
+    min-width: 144px;
+    min-height:144px;
+    background-color: white;
+    outline: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info-txt {
+    max-width: 144px;
+    max-height: 144px;
+    font-size: 13px;
+    color: #696969;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -172,21 +186,32 @@ h1 {
 
 .quote {
     padding-top: 80px;
-    padding-bottom: 80px
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 blockquote {
-    margin: 0;
-    font-style: italic;
-}
-
-.quote-container {
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
+    margin: 0;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 cite {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
     font-style: normal;
 }
 
