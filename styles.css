@@ -108,12 +108,12 @@ h1 {
     margin: 0;
 }
 
-.sign-up {
+.btn {
+    border: none;
     min-width: 100px;
     flex: initial;
     border-radius: 6px;
     padding: 8px 32px 8px 32px;
-    border: none;
     background-color: #3882F6;
     color: white;
     font-size: 18px;
@@ -262,21 +262,8 @@ cite {
     gap: 8px;
 }
 
-
-.sign-up-banner {
-    min-width: 100px;
-    flex: initial;
-    border-radius: 6px;
-    padding: 8px 32px 8px 32px;
-    background-color: #3882F6;
-    border: none;
+.button-container .btn {
     outline: 3px solid white;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer {
