@@ -255,6 +255,15 @@ cite {
     margin: 0;
 }
 
+.cta-content h2 {
+    font-size: 24px;
+}
+
+.cta-content p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
 .cta-content {
     display: flex;
     flex-direction: column;
